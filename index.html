@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portafolio - Codificador & Analista.">
+  <meta name="keywords" content="HTML, portafolio, desarrollador web, proyectos">
+  <meta name="author" content="Roman Bohorquez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Roman</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header class="navbar">
+    <h1 class="logo">Roman Bohorquez</h1>
+    <nav>
+      <a href="index.html" class="active">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="articulos.html">Artículos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <button id="darkModeToggle">🌙</button>
+  </header>
+
+   <section class="hero">
+    <h2>Hola, soy <span>Codificador</span></h2>
+    <p>Desarrollo de interfaces modernas y funcionales.  
+    HTML | CSS | JavaScript</p>
+    <a href="proyectos.html" class="btn">Ver proyectos</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Roman Bohorquez. Todos los derechos reservados.</p>
+  </footer>
+
+ <script>
+    // Dark Mode
+    const toggle = document.getElementById("darkModeToggle");
+    toggle.onclick = () => document.body.classList.toggle("dark-mode");
+  </script>
+
+</body>
+</html>
